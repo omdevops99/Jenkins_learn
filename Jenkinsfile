@@ -6,7 +6,7 @@ pipeline {
                 branch 'production'
 
                 }
-            }
+
             steps {
                 echo 'Deploying'
             }
@@ -18,3 +18,5 @@ pipeline {
             }
         }
     }
+
+}    
